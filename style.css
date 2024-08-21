@@ -1,0 +1,63 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+
+header{
+
+    border-bottom: solid 2px rgb(12, 152, 245);
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(12, 152, 245);
+}
+
+.Brasil {
+    background-color:rgb(21, 90, 146);
+    padding-bottom: 90px;
+    padding-top: 90px;
+display:flex ;
+justify-content:center
+}
+
+.pão{
+margin-right: 5% ;
+}
+
+h1{
+font-size: 40px;
+}
+
+p{
+font-size: 20px;
+}
+img{
+    height: 100px;
+}
+.futebol{
+    display: flex;
+    overflow-x:auto;
+    gap: 20px;
+}
+
+.videos{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.futebol img {
+opacity: 0.5;
+}
+.futebol img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(21, 90, 146);
+}
+.videos h2{
+color: rgb(21, 90, 146);
+
+}
